@@ -413,13 +413,13 @@ const Home = () => {
               <CloseIcon fontSize="large" />
               <nav className={`nav-links ${menuOpen ? 'open' : ''}`}>
               {['home', 'about', 'projects', 'experience', 'contact'].map((section) => (
-                <a
+                <div
                   key={section}
                   className={activeSection === section ? 'nav-link active' : 'nav-link'}
                   onClick={() => scrollToSection(section)}
                 >
                   {section.charAt(0).toUpperCase() + section.slice(1)}
-                </a>
+                </div>
                 ))}
               </nav>
               </div> 
@@ -429,13 +429,13 @@ const Home = () => {
         ):(
         <nav className={`nav-links ${menuOpen ? 'open' : ''}`}>
           {['home', 'about', 'projects', 'experience', 'contact'].map((section) => (
-            <a
+            <div
               key={section}
               className={activeSection === section ? 'nav-link active' : 'nav-link'}
               onClick={() => scrollToSection(section)}
             >
               {section.charAt(0).toUpperCase() + section.slice(1)}
-            </a>
+            </div>
           ))}
         </nav>
         )}
