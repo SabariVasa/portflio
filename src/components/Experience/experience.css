@@ -1,0 +1,45 @@
+.experience-section {
+    background-color: #fde4ec;
+    text-align: center;
+    padding: 40px 20px;
+    color: #000;
+  }
+  
+  .tech-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  
+  .tech-item {
+    text-align: center;
+    border: 2px solid #eee;
+    border-radius: 50%;
+    padding: 20px;
+    width: 130px;
+    height: 130px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .tech-item:hover {
+    transform: scale(1.1);
+  }
+  
+  .tech-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .tech-item p {
+    margin: 0;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,25 @@
+.about-container {
+    padding: 2rem 3rem;
+    background-color: #fde6ec;
+    color: #222;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.8;
+  }
+  
+  .about-container h1 {
+    font-size: 36px;
+    margin-bottom: 1rem;
+  }
+  
+  .section-heading {
+    color: #6c1e9d;
+    font-weight: bold;
+    margin-top: 2rem;
+    font-size: 20px;
+  }
+  
+  .about-container p {
+    margin: 0.5rem 0;
+    font-size: 16px;
+  }
+  
